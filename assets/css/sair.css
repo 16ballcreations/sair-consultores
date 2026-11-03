@@ -1,0 +1,87 @@
+/* =====================================================================
+   SAIR Consultores · sistema de marca
+   Fuente única de colores, tipografía, medidas y componentes base.
+   La usan la guía de marca (/guia/) y el sitio. Si cambias un valor aquí,
+   cambia en todas partes: actualiza también la guía.
+   ===================================================================== */
+
+/* Plus Jakarta Sans: la familia de la marca (400, 500, 700, 800) */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
+
+:root{
+  /* --- color: marca --- */
+  --sair-noche:#2E0B52;        /* violeta noche: fondos profundos, inicio del degradado */
+  --sair-violeta:#6C00B4;      /* violeta SAIR: color principal de la marca */
+  --sair-ciruela:#9B2588;      /* ciruela: logo en versión clara, acentos cálidos */
+  --sair-turquesa:#49A4AC;     /* turquesa: la acción (botones), detalles */
+  --sair-turquesa-osc:#2F7F87; /* turquesa oscuro: enlaces y texto turquesa sobre claro */
+  --sair-turquesa-claro:#8FD6DB; /* turquesa claro: texto o detalles sobre fondos violeta */
+
+  /* --- color: neutros --- */
+  --sair-tinta:#22162E;        /* texto principal */
+  --sair-gris:#6B6177;         /* texto secundario, notas */
+  --sair-borde:#E4DCEC;        /* líneas, bordes de campos */
+  --sair-lienzo:#F7F3FB;       /* fondo de página: blanco apenas lila */
+  --sair-blanco:#FFFFFF;       /* tarjetas, barra de navegación */
+
+  /* --- el degradado firma --- */
+  --sair-degradado:linear-gradient(100deg,#2E0B52 0%,#6C00B4 55%,#9B2588 100%);
+
+  /* --- tipografía --- */
+  --sair-fuente:"Plus Jakarta Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --t-nota:12px;    --lh-nota:1.4;
+  --t-cuerpo:16px;  --lh-cuerpo:1.6;
+  --t-cuerpo-lg:18px; --lh-cuerpo-lg:1.6;
+  --t-sub:20px;     --lh-sub:1.4;
+  --t-h3:24px;      --lh-h3:1.3;
+  --t-h2:36px;      --lh-h2:1.15;
+  --t-display:52px; --lh-display:1.08;
+
+  /* --- espacio (base 4px) --- */
+  --e-4:4px; --e-8:8px; --e-12:12px; --e-16:16px; --e-20:20px; --e-24:24px;
+  --e-32:32px; --e-40:40px; --e-48:48px; --e-64:64px; --e-96:96px; --e-120:120px;
+
+  /* --- formas --- */
+  --r-campo:8px;     /* campos de formulario */
+  --r-icono:12px;    /* contenedores de íconos: cuadrados redondeados, como los píxeles del logo */
+  --r-tarjeta:16px;  /* tarjetas */
+  --r-boton:999px;   /* botones: píldora */
+  --sombra:0 1px 2px rgba(34,22,46,.08),0 4px 16px rgba(46,11,82,.06);
+
+  --ancho:1200px;    /* ancho máximo del contenido */
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--sair-lienzo);color:var(--sair-tinta);
+  font-family:var(--sair-fuente);font-size:var(--t-cuerpo);line-height:var(--lh-cuerpo);
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--sair-turquesa-osc);text-underline-offset:3px}
+a:hover{color:var(--sair-violeta)}
+img{max-width:100%;height:auto}
+:focus-visible{outline:3px solid var(--sair-turquesa);outline-offset:2px}
+
+/* --- botones --- */
+.btn{
+  display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:var(--r-boton);
+  font:700 15px/1.2 var(--sair-fuente);text-decoration:none;border:2px solid transparent;cursor:pointer;
+}
+.btn-accion{background:var(--sair-turquesa);color:var(--sair-noche)}           /* la acción principal: una por pantalla */
+.btn-accion:hover{background:#5BB6BE;color:var(--sair-noche)}
+.btn-borde{border-color:var(--sair-violeta);color:var(--sair-violeta);background:transparent}
+.btn-borde:hover{background:var(--sair-violeta);color:#fff}
+.btn-texto{color:var(--sair-tinta);background:transparent}
+.sobre-oscuro .btn-borde{border-color:#fff;color:#fff}
+.sobre-oscuro .btn-borde:hover{background:#fff;color:var(--sair-noche)}
+
+/* --- tarjetas e íconos --- */
+.tarjeta{background:var(--sair-blanco);border-radius:var(--r-tarjeta);padding:var(--e-24);box-shadow:var(--sombra)}
+.icono{width:48px;height:48px;border-radius:var(--r-icono);display:grid;place-items:center;background:var(--sair-lienzo);color:var(--sair-violeta)}
+
+/* --- el motivo de píxeles: los cuadros del logo --- */
+.pixeles{display:inline-grid;grid-template-columns:repeat(3,8px);gap:3px}
+.pixeles i{width:8px;height:8px;border-radius:2px;background:currentColor;display:block}
+.pixeles i:nth-child(2),.pixeles i:nth-child(4){opacity:.55}
+.pixeles i:nth-child(3),.pixeles i:nth-child(5){opacity:0}
