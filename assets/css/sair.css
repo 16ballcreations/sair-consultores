@@ -80,11 +80,6 @@ img{max-width:100%;height:auto}
 .tarjeta{background:var(--sair-blanco);border-radius:var(--r-tarjeta);padding:var(--e-24);box-shadow:var(--sombra)}
 .icono{width:48px;height:48px;border-radius:var(--r-icono);display:grid;place-items:center;background:var(--sair-lienzo);color:var(--sair-violeta)}
 
-/* --- el motivo de píxeles: los cuadros del logo --- */
-.pixeles{display:inline-grid;grid-template-columns:repeat(3,8px);gap:3px}
-.pixeles i{width:8px;height:8px;border-radius:2px;background:currentColor;display:block}
-.pixeles i:nth-child(2),.pixeles i:nth-child(4){opacity:.55}
-.pixeles i:nth-child(3),.pixeles i:nth-child(5){opacity:0}
 
 /* =====================================================================
    v1.1 · propuesta del manual de marca (noviembre de 2026)

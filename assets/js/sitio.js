@@ -6,6 +6,11 @@
   "use strict";
   var DESTINO = "ivonneharvey@gmail.com";
 
+  /* --- los píxeles del logo se arman al cargar (sair.css respeta prefers-reduced-motion) --- */
+  [].forEach.call(document.querySelectorAll(".px"), function(g){
+    requestAnimationFrame(function(){ requestAnimationFrame(function(){ g.classList.add("encendida"); }); });
+  });
+
   /* --- flechas de la fila de servicios --- */
   var fila = document.getElementById("fila");
   [].forEach.call(document.querySelectorAll(".flecha"), function(b){

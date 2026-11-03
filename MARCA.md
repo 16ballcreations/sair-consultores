@@ -108,8 +108,9 @@ completo. Archivo: `assets/img/marca/sello.svg`. Mínimo impreso: 8 mm.
   sobre lienzo 5,3 · turquesa oscuro sobre blanco 4,7.
 - **Nunca como texto:** turquesa sobre blanco (2,9) o lienzo (2,7) · blanco sobre turquesa (2,9) · ciruela
   sobre violeta noche (2,3) · violeta sobre violeta noche (1,8) · turquesa claro sobre claro (1,6).
-- **Ojo:** turquesa oscuro sobre lienzo da 4,3, bajo el mínimo de 4,5 para texto normal. Enlaces en turquesa
-  oscuro solo sobre blanco; sobre lienzo, en violeta (8,3) o con el texto a 18 px o más.
+- **Ojo:** turquesa oscuro sobre lienzo da 4,3, bajo el mínimo de 4,5 para texto normal. Sobre lienzo, el
+  turquesa oscuro va de fondo con texto blanco (4,7): así son las etiquetas de sección del sitio, en píldora.
+  Los enlaces de texto en turquesa oscuro, solo sobre blanco; sobre lienzo, en violeta (8,3).
 - CMYK y Pantone son aproximados y se validan con una prueba de imprenta (ver el manual, 4.1).
 
 ## Tipografía
