@@ -21,7 +21,8 @@ HTML y CSS sin frameworks, publicado con GitHub Pages desde la rama `main`.
 
 - Los valores de marca viven en `assets/css/sair.css`. Si cambias uno, actualiza la guía.
 - El tono, los nombres oficiales y los textos están en la guía (secciones 07 a 10). Úsalos tal cual.
-- Este repositorio es **público**: aquí no van auditorías, notas internas ni datos de contacto personales.
+- Este repositorio es **público**: aquí no van auditorías ni notas internas. El único contacto publicado es el
+  que SAIR eligió para el sitio (correo y WhatsApp de Ivonne Harvey).
   Esos documentos están fuera del repositorio, en la carpeta privada del cliente de 16 Ball Creations.
 
 ## Pendientes
