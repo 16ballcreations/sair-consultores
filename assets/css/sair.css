@@ -1,8 +1,8 @@
 /* =====================================================================
    SAIR Consultores · sistema de marca
    Fuente única de colores, tipografía, medidas y componentes base.
-   La usan la guía de marca (/guia/) y el sitio. Si cambias un valor aquí,
-   cambia en todas partes: actualiza también la guía.
+   La usan el manual de marca (/marca/) y el sitio; la guía en texto es MARCA.md.
+   Si cambias un valor aquí, cambia en todas partes: actualiza también MARCA.md y el manual.
    ===================================================================== */
 
 /* Plus Jakarta Sans: la familia de la marca (400, 500, 700, 800) */
@@ -85,3 +85,22 @@ img{max-width:100%;height:auto}
 .pixeles i{width:8px;height:8px;border-radius:2px;background:currentColor;display:block}
 .pixeles i:nth-child(2),.pixeles i:nth-child(4){opacity:.55}
 .pixeles i:nth-child(3),.pixeles i:nth-child(5){opacity:0}
+
+/* =====================================================================
+   v1.1 · propuesta del manual de marca (noviembre de 2026)
+   El grupo de píxeles del logotipo como recurso gráfico: se arma pieza a
+   pieza, de abajo a la izquierda hacia arriba a la derecha. Ver MARCA.md.
+   ===================================================================== */
+:root{
+  --px-tiempo:.5s;                        /* cada pieza */
+  --px-paso:.12s;                         /* entre una pieza y la siguiente */
+  --px-curva:cubic-bezier(.2,.7,.2,1);
+}
+.px{display:inline-block;width:var(--px-ancho,48px);height:auto;color:inherit;overflow:visible}
+.px rect{fill:currentColor;transform-box:fill-box;transform-origin:center;transform:scale(0);
+  transition:transform var(--px-tiempo) var(--px-curva)}
+.px rect:nth-child(2){transition-delay:var(--px-paso)}
+.px rect:nth-child(3){transition-delay:calc(var(--px-paso)*2)}
+.px rect:nth-child(4){transition-delay:calc(var(--px-paso)*3)}
+.px.encendida rect{transform:scale(1)}
+@media (prefers-reduced-motion:reduce){.px rect{transform:none;transition:none}}

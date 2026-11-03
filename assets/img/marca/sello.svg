@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SAIR Consultores">
+  <!-- Propuesta: los píxeles que coronan la «I» del logotipo, sobre el violeta SAIR. -->
+  <rect width="64" height="64" fill="#6C00B4"/>
+  <g fill="#FFFFFF" transform="translate(10 17.5)">
+    <rect x="0" y="19" width="10.5" height="10.5" rx=".6"/>
+    <rect x="13.5" y="8.1" width="11.25" height="21.4" rx=".6"/>
+    <rect x="24.5" y="18.9" width="10.15" height="10.6" rx=".6"/>
+    <rect x="27.5" y="0" width="16.2" height="15.75" rx=".6"/>
+  </g>
+</svg>
