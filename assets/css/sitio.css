@@ -52,7 +52,7 @@
 .bloque.blanco{background:var(--sair-blanco)}
 .encabezado{text-align:center;max-width:720px;margin:0 auto var(--e-48)}
 .encabezado h2,.titulo{font-size:var(--t-h2);line-height:var(--lh-h2);font-weight:800;letter-spacing:-.01em;margin:0 0 var(--e-12)}
-.encabezado p{font-size:var(--t-cuerpo-lg);color:var(--sair-gris);margin:0}
+.encabezado p:not(.etiqueta){font-size:var(--t-cuerpo-lg);color:var(--sair-gris);margin:0}
 .etiqueta{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--sair-turquesa-osc);padding:6px 14px;border-radius:999px;margin:0 0 var(--e-12)}
 
 /* fila de servicios (el equivalente a la fila de banderas) */
