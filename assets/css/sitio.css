@@ -77,7 +77,7 @@
 
 /* historia */
 .historia{display:grid;grid-template-columns:1.1fr .9fr;gap:var(--e-64);align-items:center}
-.historia p{font-size:17px}
+.historia p:not(.etiqueta){font-size:17px}
 .paises{display:flex;flex-wrap:wrap;gap:8px;margin:var(--e-24) 0 0;padding:0;list-style:none}
 .paises li{padding:6px 14px;border-radius:999px;background:var(--sair-blanco);box-shadow:var(--sombra);font-size:14px;font-weight:500}
 .paises li.aqui{background:var(--sair-violeta);color:#fff}
@@ -112,7 +112,7 @@
 
 /* contacto */
 .contacto{display:grid;grid-template-columns:.9fr 1.1fr;gap:var(--e-48);align-items:start}
-.contacto .datos p{font-size:17px}
+.contacto .datos p:not(.etiqueta){font-size:17px}
 .medios{list-style:none;margin:var(--e-24) 0 0;padding:0;display:grid;gap:var(--e-12)}
 .medios a{display:flex;align-items:center;gap:12px;background:var(--sair-blanco);border-radius:var(--r-tarjeta);box-shadow:var(--sombra);padding:var(--e-16) var(--e-20);color:var(--sair-tinta);text-decoration:none;font-weight:500}
 .medios a:hover{color:var(--sair-violeta)}
