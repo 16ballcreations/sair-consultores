@@ -98,7 +98,7 @@
 .podcast{background:linear-gradient(120deg,#5B1650 0%,var(--sair-ciruela) 60%,#B0459C 100%);color:#fff;border-radius:28px;padding:var(--e-64);display:grid;grid-template-columns:1.2fr .8fr;gap:var(--e-48);align-items:center}
 .podcast .etiqueta{color:var(--sair-turquesa-claro);background:none;padding:0}
 .podcast h2{font-size:var(--t-h2);line-height:var(--lh-h2);font-weight:800;margin:0 0 var(--e-12)}
-.podcast p{color:rgba(255,255,255,.9);font-size:17px;margin:0 0 var(--e-24)}
+.podcast p:not(.etiqueta){color:rgba(255,255,255,.9);font-size:17px;margin:0 0 var(--e-24)}
 .cifras{display:grid;grid-template-columns:1fr 1fr;gap:var(--e-16)}
 .cifras div{background:rgba(255,255,255,.12);border-radius:var(--r-tarjeta);padding:var(--e-20)}
 .cifras b{display:block;font-size:36px;font-weight:800;line-height:1.1}
