@@ -1,4 +1,4 @@
-/* SAIR Consultores · sitio: flechas de la fila de servicios y envío del formulario.
+/* SAIR Consultores · sitio: flechas de la fila de servicios, tema del formulario según la página de origen y envío.
    El formulario se envía a SAIR por FormSubmit (formsubmit.co), que reenvía cada mensaje al correo
    de destino. El primer envío llega como correo de activación: hay que confirmarlo una vez.
    Si el servicio falla, se abre el correo del visitante con el mensaje ya escrito. */
@@ -13,7 +13,7 @@
 
   /* --- flechas de la fila de servicios --- */
   var fila = document.getElementById("fila");
-  [].forEach.call(document.querySelectorAll(".flecha"), function(b){
+  if(fila) [].forEach.call(document.querySelectorAll(".flecha"), function(b){
     b.addEventListener("click", function(){
       var paso = fila.clientWidth * 0.8;
       fila.scrollBy({ left: b.classList.contains("izq") ? -paso : paso, behavior: "smooth" });
@@ -22,7 +22,11 @@
 
   /* --- formulario --- */
   var form = document.getElementById("formulario");
+  if(!form){ return; }
   var estado = document.getElementById("estado");
+  /* desde una página de servicio se llega con ?tema=…: el formulario ya viene con ese tema */
+  var tema = new URLSearchParams(location.search).get("tema");
+  if(tema){ [].forEach.call(form.elements.tema.options, function(o){ if(o.text === tema){ form.elements.tema.value = o.value || o.text; } }); }
   function decir(t, tipo){ estado.textContent = t; estado.className = "estado" + (tipo ? " " + tipo : ""); }
   function valor(n){ var c = form.elements[n]; return c ? c.value.trim() : ""; }
 

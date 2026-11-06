@@ -1,0 +1,693 @@
+{
+ "_leeme": "Episodios de EDUCULTEC, por temporada. Para agregar uno nuevo, añade un objeto al final de 'episodios' de la temporada en curso (video = el código que va después de watch?v= en YouTube). Fuente: canal de YouTube de SAIR Consultores, revisado el 6 de noviembre de 2026.",
+ "temporadas": [
+  {
+   "numero": 1,
+   "lema": "Discusión epistemológica desde los investigadores",
+   "lista": "https://www.youtube.com/playlist?list=PLySv3z_HzV5Jbdiwc2_fCxIlpXUZCOMsT",
+   "nota": "",
+   "episodios": [
+    {
+     "numero": 1,
+     "fecha": "2024-05-09",
+     "invitado": "Dr. Ramón Uzcátegui",
+     "titulo": "",
+     "especial": false,
+     "video": "zfkBSY2ZKWQ"
+    },
+    {
+     "numero": 2,
+     "fecha": "2024-05-16",
+     "invitado": "Dra. Mercedes Reguant",
+     "titulo": "",
+     "especial": false,
+     "video": "Hhi9Jxf1Dds"
+    },
+    {
+     "numero": 3,
+     "fecha": "2024-05-23",
+     "invitado": "Mag. María D'Aubeterre",
+     "titulo": "",
+     "especial": false,
+     "video": "vLmBqmVzafg"
+    },
+    {
+     "numero": 4,
+     "fecha": "2024-06-06",
+     "invitado": "Lic. Gabriel Dumont",
+     "titulo": "",
+     "especial": false,
+     "video": "DVTu4FiuV9g"
+    },
+    {
+     "numero": 5,
+     "fecha": "2024-06-13",
+     "invitado": "Dr. Julio Cabero",
+     "titulo": "",
+     "especial": false,
+     "video": "42Zmzus8_Bs"
+    },
+    {
+     "numero": 6,
+     "fecha": "2024-06-20",
+     "invitado": "Dr. Fidias Arias-Odón",
+     "titulo": "",
+     "especial": false,
+     "video": "H4UKLVn8eu4"
+    },
+    {
+     "numero": 7,
+     "fecha": "2024-06-27",
+     "invitado": "Dr. Pablo Ríos Cabrera",
+     "titulo": "",
+     "especial": false,
+     "video": "5wd9GjXlVgM"
+    },
+    {
+     "numero": 8,
+     "fecha": "2024-07-04",
+     "invitado": "Dra. Marlene Fermín",
+     "titulo": "",
+     "especial": false,
+     "video": "r81ef0nf6wg"
+    },
+    {
+     "numero": 9,
+     "fecha": "2024-07-11",
+     "invitado": "Dr. Carlos Manterola",
+     "titulo": "",
+     "especial": false,
+     "video": "g5HzKzQ0NLc"
+    },
+    {
+     "numero": 10,
+     "fecha": "2024-07-18",
+     "invitado": "Dr. Tulio Ramírez",
+     "titulo": "",
+     "especial": false,
+     "video": "4nzvHMc0RBw"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "lema": "Discusión epistemológica desde los investigadores",
+   "lista": "https://www.youtube.com/playlist?list=PLySv3z_HzV5JjgtHJfbdbD0VdxTxweDFO",
+   "nota": "",
+   "episodios": [
+    {
+     "numero": 1,
+     "fecha": "2024-09-12",
+     "invitado": "Dr. Ramón Uzcátegui",
+     "titulo": "",
+     "especial": false,
+     "video": "GGDbwQLLt2w"
+    },
+    {
+     "numero": 2,
+     "fecha": "2024-09-19",
+     "invitado": "Mag. Wendy Guzmán",
+     "titulo": "",
+     "especial": false,
+     "video": "dM7zpCeM_bU"
+    },
+    {
+     "numero": 3,
+     "fecha": "2024-09-26",
+     "invitado": "Dra. Abigail Villagrán",
+     "titulo": "",
+     "especial": false,
+     "video": "WhzZOvT7XHk"
+    },
+    {
+     "numero": 4,
+     "fecha": "2024-10-10",
+     "invitado": "Dr. Tomás Páez",
+     "titulo": "",
+     "especial": false,
+     "video": "JE2OnmqFDe4"
+    },
+    {
+     "numero": 5,
+     "fecha": "2024-10-24",
+     "invitado": "Dr. Gustavo Hernández",
+     "titulo": "",
+     "especial": false,
+     "video": "F8XzSI8Obks"
+    },
+    {
+     "numero": 6,
+     "fecha": "2024-10-31",
+     "invitado": "Mag. Sandra Sequera",
+     "titulo": "",
+     "especial": false,
+     "video": "LmP8NwKXpHg"
+    },
+    {
+     "numero": 7,
+     "fecha": "2024-11-07",
+     "invitado": "Dr. Erick Landero-Olvera",
+     "titulo": "",
+     "especial": false,
+     "video": "A1sJFZaaG9E"
+    },
+    {
+     "numero": 8,
+     "fecha": "2024-11-14",
+     "invitado": "Dra. María Janeth Ríos",
+     "titulo": "",
+     "especial": false,
+     "video": "n1ooqMKlWT0"
+    },
+    {
+     "numero": 9,
+     "fecha": "2024-11-21",
+     "invitado": "Dr. Audy Salcedo",
+     "titulo": "",
+     "especial": false,
+     "video": "XNOsFRSk4v4"
+    },
+    {
+     "numero": 10,
+     "fecha": "2024-11-28",
+     "invitado": "Dr. José Miguel Cortáza",
+     "titulo": "",
+     "especial": false,
+     "video": "rSvJGJrYIcI"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "lema": "Discusión epistemológica desde los investigadores",
+   "lista": "https://www.youtube.com/playlist?list=PLySv3z_HzV5IGwR92QdqDAjIgsQ6oj_5C",
+   "nota": "",
+   "episodios": [
+    {
+     "numero": 1,
+     "fecha": "2025-01-30",
+     "invitado": "Dr. Luis Bravo Jauregui",
+     "titulo": "",
+     "especial": false,
+     "video": "UEwFiK-tvwQ"
+    },
+    {
+     "numero": 2,
+     "fecha": "2025-02-06",
+     "invitado": "Mag. Pedro Ramírez",
+     "titulo": "",
+     "especial": false,
+     "video": "192h9HTHiDw"
+    },
+    {
+     "numero": 3,
+     "fecha": "2025-02-13",
+     "invitado": "Dra. Mercedes Torrado",
+     "titulo": "",
+     "especial": false,
+     "video": "I_SmTCoM6ws"
+    },
+    {
+     "numero": 4,
+     "fecha": "2025-02-20",
+     "invitado": "Dr. Tomás Straka",
+     "titulo": "",
+     "especial": false,
+     "video": "acEC9I26ggs"
+    },
+    {
+     "numero": 5,
+     "fecha": "2025-02-27",
+     "invitado": "Dra. Elvia Garduño",
+     "titulo": "",
+     "especial": false,
+     "video": "1g0u_6tzMrI"
+    },
+    {
+     "numero": 6,
+     "fecha": "2025-03-06",
+     "invitado": "Dr. Anthony Millán",
+     "titulo": "",
+     "especial": false,
+     "video": "XTxV2PcqcUA"
+    },
+    {
+     "numero": 7,
+     "fecha": "2025-03-13",
+     "invitado": "Mag. Moraima Guanipa",
+     "titulo": "",
+     "especial": false,
+     "video": "946xfvR5yfI"
+    },
+    {
+     "numero": 8,
+     "fecha": "2025-03-20",
+     "invitado": "Dra. Karla Martínez",
+     "titulo": "",
+     "especial": false,
+     "video": "PnRUdefx-AU"
+    },
+    {
+     "numero": 9,
+     "fecha": "2025-03-27",
+     "invitado": "Dr. Gustavo Mizraim",
+     "titulo": "",
+     "especial": false,
+     "video": "NH_7jzBtN9s"
+    },
+    {
+     "numero": 10,
+     "fecha": "2025-04-03",
+     "invitado": "Dr. Giuseppe Giannetto",
+     "titulo": "",
+     "especial": false,
+     "video": "9NnA8m1QHaA"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "lema": "Investigar con sentido: el rol de la epistemología",
+   "lista": "https://www.youtube.com/playlist?list=PLySv3z_HzV5KOLefU1k6BhJ_r20C5J1cJ",
+   "nota": "",
+   "episodios": [
+    {
+     "numero": 1,
+     "fecha": "2025-05-08",
+     "invitado": "Dr. Benjamín Scharifker",
+     "titulo": "",
+     "especial": false,
+     "video": "f0AidLgFRgs"
+    },
+    {
+     "numero": 2,
+     "fecha": "2025-05-15",
+     "invitado": "Dr. Pedro Certad",
+     "titulo": "",
+     "especial": false,
+     "video": "qU2xPKaP0ns"
+    },
+    {
+     "numero": 3,
+     "fecha": "2025-05-22",
+     "invitado": "Dra. Paola Ochoa",
+     "titulo": "",
+     "especial": false,
+     "video": "58aX2wxTlzg"
+    },
+    {
+     "numero": 4,
+     "fecha": "2025-05-29",
+     "invitado": "Dr. Rafael Martínez",
+     "titulo": "",
+     "especial": false,
+     "video": "PoT8NziYqSo"
+    },
+    {
+     "numero": 5,
+     "fecha": "2025-06-05",
+     "invitado": "Dra. Idalia Cornieles",
+     "titulo": "",
+     "especial": false,
+     "video": "UZ4Q7SoHnQM"
+    },
+    {
+     "numero": 6,
+     "fecha": "2025-06-12",
+     "invitado": "Dr. Eduardo Barrios-Pérez",
+     "titulo": "",
+     "especial": false,
+     "video": "nfGU0w3_uzc"
+    },
+    {
+     "numero": 7,
+     "fecha": "2025-06-19",
+     "invitado": "Dr. Gerardo Lugo",
+     "titulo": "",
+     "especial": false,
+     "video": "2xuFARZc8Do"
+    },
+    {
+     "numero": 8,
+     "fecha": "2025-06-26",
+     "invitado": "Dr. Ricardo Azuaga",
+     "titulo": "",
+     "especial": false,
+     "video": "_vhc-tcgnVI"
+    },
+    {
+     "numero": 9,
+     "fecha": "2025-07-03",
+     "invitado": "Dr. Mariano Herrera",
+     "titulo": "",
+     "especial": false,
+     "video": "VE3IdxK2ThE"
+    },
+    {
+     "numero": 10,
+     "fecha": "2025-07-10",
+     "invitado": "Dr. Francesc Martínez-Olmo",
+     "titulo": "",
+     "especial": false,
+     "video": "u0_SdC6nJRg"
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "lema": "Investigar con sentido: el rol de la epistemología",
+   "lista": "https://www.youtube.com/playlist?list=PLySv3z_HzV5JLf5YfbCdlfzhPU0wAR8N5",
+   "nota": "El episodio 3 fue un programa especial con el Dr. Giuseppe Giannetto.",
+   "episodios": [
+    {
+     "numero": 1,
+     "fecha": "2025-09-18",
+     "invitado": "Dr. Diego Barragán",
+     "titulo": "",
+     "especial": false,
+     "video": "0HHc_g6_bVQ"
+    },
+    {
+     "numero": 2,
+     "fecha": "2025-09-25",
+     "invitado": "Dra. Nacarid Rodríguez",
+     "titulo": "",
+     "especial": false,
+     "video": "aCZxkcVT5MM"
+    },
+    {
+     "numero": 3,
+     "fecha": "2025-10-02",
+     "invitado": "Dr. Giuseppe Giannetto",
+     "titulo": "Cuando la investigación vence a la sombra",
+     "especial": true,
+     "video": "R818y_9y07w"
+    },
+    {
+     "numero": 4,
+     "fecha": "2025-10-09",
+     "invitado": "Dr. Rodolfo Iuliano",
+     "titulo": "",
+     "especial": false,
+     "video": "4rr8J6outXY"
+    },
+    {
+     "numero": 5,
+     "fecha": "2025-10-23",
+     "invitado": "Dr. Pedro Mayorga",
+     "titulo": "",
+     "especial": false,
+     "video": "vSLQeqtr9n8"
+    },
+    {
+     "numero": 6,
+     "fecha": "2025-10-30",
+     "invitado": "Dr. Rodrigo Matos",
+     "titulo": "",
+     "especial": false,
+     "video": "ipCDRlPjmm0"
+    },
+    {
+     "numero": 7,
+     "fecha": "2025-11-06",
+     "invitado": "Dr. Genaro Aguirre",
+     "titulo": "",
+     "especial": false,
+     "video": "2ZzRrg_r9To"
+    },
+    {
+     "numero": 8,
+     "fecha": "2025-11-13",
+     "invitado": "Dra. Aurora Lacueva",
+     "titulo": "",
+     "especial": false,
+     "video": "DSsPJen59_M"
+    },
+    {
+     "numero": 9,
+     "fecha": "2025-11-20",
+     "invitado": "Dr. Vladimiro Mujica",
+     "titulo": "",
+     "especial": false,
+     "video": "yApK1PSk0TM"
+    },
+    {
+     "numero": 10,
+     "fecha": "2025-11-27",
+     "invitado": "Mag. Zuleika Cevallos",
+     "titulo": "",
+     "especial": false,
+     "video": "rcCRJnsfPUM"
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "lema": "Investigar con sentido: el rol de la epistemología",
+   "lista": "https://www.youtube.com/playlist?list=PLySv3z_HzV5IYsV5vT2ZKKjGTBXc-sWpc",
+   "nota": "Cierra con dos programas especiales sobre inteligencia artificial.",
+   "episodios": [
+    {
+     "numero": 1,
+     "fecha": "2026-01-22",
+     "invitado": "Mag. Ángel Alvarado",
+     "titulo": "",
+     "especial": false,
+     "video": "gfYdmmVZJDo"
+    },
+    {
+     "numero": 2,
+     "fecha": "2026-01-29",
+     "invitado": "Dra. Áide Maldonado",
+     "titulo": "",
+     "especial": false,
+     "video": "vqRr_X9mOqU"
+    },
+    {
+     "numero": 3,
+     "fecha": "2026-02-05",
+     "invitado": "Dra. Sary Levy",
+     "titulo": "",
+     "especial": false,
+     "video": "GdeC_s3r8LI"
+    },
+    {
+     "numero": 4,
+     "fecha": "2026-02-12",
+     "invitado": "Dr. Rafael Cortés",
+     "titulo": "",
+     "especial": false,
+     "video": "kAaw0scEYBI"
+    },
+    {
+     "numero": 5,
+     "fecha": "2026-02-19",
+     "invitado": "Dr. Claudio Rama",
+     "titulo": "",
+     "especial": false,
+     "video": "dWSbwpTXawQ"
+    },
+    {
+     "numero": 6,
+     "fecha": "2026-02-26",
+     "invitado": "Mag. Rita Ameli",
+     "titulo": "",
+     "especial": false,
+     "video": "yluUftm434g"
+    },
+    {
+     "numero": 7,
+     "fecha": "2026-03-05",
+     "invitado": "Dra. Silvia Friedman",
+     "titulo": "",
+     "especial": false,
+     "video": "bTx2o3o0s4c"
+    },
+    {
+     "numero": 8,
+     "fecha": "2026-03-12",
+     "invitado": "Dra. Pilar Folgueiras",
+     "titulo": "",
+     "especial": false,
+     "video": "H6hKTIxIiSY"
+    },
+    {
+     "numero": 9,
+     "fecha": "2026-03-19",
+     "invitado": "",
+     "titulo": "La IA y el análisis de información",
+     "especial": true,
+     "video": "G6ulZhD6XQU"
+    },
+    {
+     "numero": 10,
+     "fecha": "2026-03-26",
+     "invitado": "",
+     "titulo": "La IA y la discusión científica",
+     "especial": true,
+     "video": "kLbcEumajI8"
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "lema": "Investigar con sentido: el rol de la epistemología",
+   "lista": "https://www.youtube.com/playlist?list=PLySv3z_HzV5JT1CiaBmGjWEeC24ISwxqb",
+   "nota": "",
+   "episodios": [
+    {
+     "numero": 1,
+     "fecha": "2026-05-07",
+     "invitado": "Dr. Sebastián Rodríguez",
+     "titulo": "",
+     "especial": false,
+     "video": "DyNBz8UR8tQ"
+    },
+    {
+     "numero": 2,
+     "fecha": "2026-05-14",
+     "invitado": "Mag. Ana Ragel",
+     "titulo": "",
+     "especial": false,
+     "video": "upozFL8H9uM"
+    },
+    {
+     "numero": 3,
+     "fecha": "2026-05-21",
+     "invitado": "Dr. Jorge Miranda",
+     "titulo": "",
+     "especial": false,
+     "video": "QDTqV5RRXA8"
+    },
+    {
+     "numero": 4,
+     "fecha": "2026-05-28",
+     "invitado": "Dra. Nora Ovelar",
+     "titulo": "",
+     "especial": false,
+     "video": "ALxCMugmLRg"
+    },
+    {
+     "numero": 5,
+     "fecha": "2026-06-04",
+     "invitado": "Dr. Juan Llanes Odoñez",
+     "titulo": "",
+     "especial": false,
+     "video": "EdSA8CbKeFA"
+    },
+    {
+     "numero": 6,
+     "fecha": "2026-06-11",
+     "invitado": "Dr. Timoteo Tobar",
+     "titulo": "",
+     "especial": false,
+     "video": "hVhl5qWzeMA"
+    },
+    {
+     "numero": 7,
+     "fecha": "2026-06-18",
+     "invitado": "Dr. Luis Pedro Morera",
+     "titulo": "",
+     "especial": false,
+     "video": "afC_nKjrodk"
+    },
+    {
+     "numero": 8,
+     "fecha": "2026-07-02",
+     "invitado": "Dra. Núria Manzano",
+     "titulo": "",
+     "especial": false,
+     "video": "A_CcbsAx3aU"
+    },
+    {
+     "numero": 9,
+     "fecha": "2026-07-09",
+     "invitado": "Lic. Luis Carlos Díaz",
+     "titulo": "",
+     "especial": false,
+     "video": "qoImaaOU9SA"
+    },
+    {
+     "numero": 10,
+     "fecha": "2026-07-16",
+     "invitado": "Dra. Elizabeth Sosa",
+     "titulo": "",
+     "especial": false,
+     "video": "64HXJnzFmOQ"
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "lema": "Investigar con sentido: el rol de la epistemología",
+   "lista": "https://www.youtube.com/@sairconsultores/streams",
+   "nota": "Temporada en curso: episodio nuevo cada jueves.",
+   "episodios": [
+    {
+     "numero": 1,
+     "fecha": "2026-09-17",
+     "invitado": "Dra. Micaela Choquehuanca",
+     "titulo": "",
+     "especial": false,
+     "video": "WEL1Y1MmTXg"
+    },
+    {
+     "numero": 2,
+     "fecha": "2026-09-24",
+     "invitado": "Ing. José María de Viana",
+     "titulo": "",
+     "especial": false,
+     "video": "QraGh5hzjQc"
+    },
+    {
+     "numero": 3,
+     "fecha": "2026-10-01",
+     "invitado": "Dr. Carlos Calatrava",
+     "titulo": "",
+     "especial": false,
+     "video": "gsSxQ5MwcAA"
+    },
+    {
+     "numero": 4,
+     "fecha": "2026-10-08",
+     "invitado": "Dr. José Ismael Peña",
+     "titulo": "",
+     "especial": false,
+     "video": "pPGZghElCqU"
+    },
+    {
+     "numero": 5,
+     "fecha": "2026-10-15",
+     "invitado": "Dr. Eleazar Narváez",
+     "titulo": "",
+     "especial": false,
+     "video": "CGEu5ynPSlA"
+    },
+    {
+     "numero": 6,
+     "fecha": "2026-10-22",
+     "invitado": "Dr. Juan Domingo Farnós",
+     "titulo": "",
+     "especial": false,
+     "video": "a7yjcp3wMkk"
+    },
+    {
+     "numero": 7,
+     "fecha": "2026-10-29",
+     "invitado": "Dra. Inés Quintero",
+     "titulo": "",
+     "especial": false,
+     "video": "B6GPCjxW4HI"
+    },
+    {
+     "numero": 8,
+     "fecha": "2026-11-05",
+     "invitado": "Prof. Carlos Colina",
+     "titulo": "",
+     "especial": false,
+     "video": "IKSulYB_xcE"
+    }
+   ]
+  }
+ ]
+}

@@ -18,7 +18,23 @@ HTML y CSS sin frameworks, publicado con GitHub Pages desde la rama `main`.
 | `marca/` | El manual de marca, como página web con forma de documento |
 | `guia/` | Redirección a `/marca/` (aquí estuvo la guía 1.0), para que no se rompan los enlaces compartidos |
 | `assets/img/` | Logotipo, sello (`marca/sello.svg`) y fotos |
-| `index.html`, `assets/css/sitio.css`, `assets/js/sitio.js` | El sitio: una página con servicios, historia, EDUCULTEC, aliados y contacto |
+| `index.html`, `assets/css/sitio.css`, `assets/js/sitio.js` | La portada: servicios, historia, EDUCULTEC, aliados y el formulario de contacto |
+| `servicios/` | Índice de servicios y una página por servicio (`servicios/<servicio>/`). Su botón lleva al formulario con el tema ya elegido (`?tema=…#contacto`) |
+| `nosotros/` | Historia, línea de tiempo, misión, visión, valores y equipo |
+| `educultec/`, `assets/js/educultec.js` | El podcast: de qué va, créditos, episodio más reciente y todos los episodios por temporada |
+| `assets/data/educultec.json` | **Los episodios de EDUCULTEC.** Las cifras de la página (temporadas, episodios) salen de aquí |
+
+## Cómo agregar un episodio de EDUCULTEC
+
+En `assets/data/educultec.json`, al final de `episodios` de la temporada en curso:
+
+```json
+{"numero": 9, "fecha": "2026-11-12", "invitado": "Dra. Nombre Apellido", "titulo": "", "especial": false, "video": "CODIGO"}
+```
+
+`video` es lo que va después de `watch?v=` en YouTube. `titulo` solo se usa en los programas especiales.
+Para una temporada nueva, se agrega un objeto en `temporadas` con su `numero`, `lema`, `lista` (la lista de
+reproducción de YouTube, o la página de directos si aún no existe) y `episodios`.
 
 ## Reglas para trabajar en este repositorio
 
@@ -34,3 +50,6 @@ HTML y CSS sin frameworks, publicado con GitHub Pages desde la rama `main`.
   manda un correo de activación a esa dirección; hay que confirmarlo una vez para que empiecen a llegar.
 - Lo que falta de SAIR (logotipo en vector, aprobación de propuestas, lista oficial de servicios, fotos,
   proyectos y clientes, entre otros): sección 11.2 del manual.
+- Páginas internas (propuesta): validar con SAIR el detalle de cada servicio, la misión, la visión, los cargos
+  del equipo y los créditos de EDUCULTEC. Faltan fotos del equipo (hoy, iniciales).
+- EDUCULTEC: la temporada 7 tiene lista de reproducción incompleta en YouTube (6 de 10) y la 8 no tiene lista.
